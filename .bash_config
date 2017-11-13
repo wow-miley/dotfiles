@@ -1,2 +1,2 @@
 source ~/.shell_prompt.sh airline
-source "$HOME/.vim/bundle/gruvbox/gruvbox_256pallete.sh"
+source ~/.vim/bundle/gruvbox/gruvbox_256palette.sh
