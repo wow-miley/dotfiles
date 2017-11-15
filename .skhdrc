@@ -1,0 +1,25 @@
+# open terminal
+cmd - return : open -na /Applications/iTerm.app
+
+# equalize size of windows
+shift + alt - 0 : chunkc tiling::desktop --equalize
+
+# change layout of desktop
+ctrl + alt - a : chunkc tiling::desktop --layout bsp
+ctrl + alt - s : chunkc tiling::desktop --layout monocle
+ctrl + alt - d : chunkc tiling::desktop --layout float
+
+# move window
+shift + cmd - h : chunkc tiling::window --warp west
+shift + cmd - j : chunkc tiling::window --warp south
+shift + cmd - k : chunkc tiling::window --warp north
+shift + cmd - l : chunkc tiling::window --warp east
+
+# focus window
+alt - h : chunkc tiling::window --focus west
+alt - j : chunkc tiling::window --focus south
+alt - k : chunkc tiling::window --focus north
+alt - l : chunkc tiling::window --focus east
+
+cmd - j : chunkc tiling::window --focus prev
+cmd - k : chunkc tiling::window --focus next
