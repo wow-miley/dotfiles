@@ -1,6 +1,9 @@
 # Claude Code settings
 .claude/
 
+# IDE files
+*.iml
+/.idea
+
 # OS files
 .DS_Store
-
